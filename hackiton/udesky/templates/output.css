@@ -562,21 +562,6 @@ video {
   display: block;
 }
 
-.size-8 {
-  width: 2rem;
-  height: 2rem;
-}
-
-.size-24 {
-  width: 6rem;
-  height: 6rem;
-}
-
-.size-2 {
-  width: 0.5rem;
-  height: 0.5rem;
-}
-
 .size-10 {
   width: 2.5rem;
   height: 2.5rem;
@@ -584,10 +569,6 @@ video {
 
 .rounded {
   border-radius: 0.25rem;
-}
-
-.bg-inherit {
-  background-color: inherit;
 }
 
 .bg-blue-400 {
@@ -598,11 +579,6 @@ video {
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .py-2 {
