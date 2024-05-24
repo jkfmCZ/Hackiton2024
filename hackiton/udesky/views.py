@@ -10,4 +10,4 @@ def index(request):
 def duchodci_rok(request):
     fig = px.bar(duchodci, x="rok", y="pocet_duchodcu", title="Počet důchodců")
     pplot = plot(fig, output_type='div')
-    return render(request, "duchodci_rok", {"plot":pplot})
+    return render(request, "duchodci_rok.html", {"plot":pplot})
