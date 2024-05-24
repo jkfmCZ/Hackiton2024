@@ -7,131 +7,61 @@
   <body
     class="bg-fixed bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black"
   >
-    <nav class="bg-blue-600 shadow">
-      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+  <nav class="bg-blue-600 shadow">
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-between h-12 sm:h-16">
-          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-            <!-- Mobile menu button-->
-            <button
-              type="button"
-              class="inline-flex items-center justify-center p-2 rounded-md text-blue-200 hover:text-white hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
-              aria-controls="mobile-menu"
-              aria-expanded="false"
-            >
-              <span class="sr-only">Open main menu</span>
-              <!-- Icon when menu is closed. -->
-              <svg
-                class="block h-6 w-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
-              <!-- Icon when menu is open. -->
-              <svg
-                class="hidden h-6 w-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-          </div>
-          <div
-            class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
-          >
-            <div class="flex-shrink-0">
-              <img
-                class="h-8 w-auto"
-                src="images/IMG_8617.JPG"
-                alt="Workflow"
-                class="border-black rounded"
-              />
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                <!-- Mobile menu button-->
+                <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-blue-200 hover:text-white hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <!-- Icon when menu is closed. -->
+                    <img class="block h-6 w-6" src="/theme/static_src/src/images/IMG_8617.JPG" alt="Open menu">
+                    <!-- Icon when menu is open. -->
+                    <img class="hidden h-6 w-6" src="/theme/static_src/src/images/IMG_8617.JPG" alt="Close menu">
+                </button>
             </div>
-            <div class="hidden sm:block sm:ml-6">
-              <div class="flex space-x-4">
-                <a
-                  href="#"
-                  class="text-white hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >Home</a
-                >
-                <a
-                  href="#"
-                  class="text-blue-200 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >About</a
-                >
-                <a
-                  href="#"
-                  class="text-blue-200 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >Services</a
-                >
-                <a
-                  href="#"
-                  class="text-blue-200 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >Contact</a
-                >
-              </div>
+            <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                <div class="flex-shrink-0">
+                    <img class="h-8 w-auto" src="/theme/static_src/src/images/IMG_8617.JPG" alt="Logo">
+                </div>
+                <div class="hidden sm:block sm:ml-6">
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#" class="text-blue-200 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="#" class="text-blue-200 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Services</a>
+                        <a href="#" class="text-blue-200 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-
-      <!-- Mobile menu, show/hide based on menu state. -->
-      <div class="sm:hidden" id="mobile-menu">
+    </div>
+    
+    <!-- Mobile menu, show/hide based on menu state. -->
+    <div class="sm:hidden" id="mobile-menu">
         <div class="px-2 pt-2 pb-3 space-y-1">
-          <a
-            href="#"
-            class="text-white hover:bg-blue-500 hover:text-white block px-3 py-2 rounded-md text-sm"
-            >Home</a
-          >
-          <a
-            href="#"
-            class="text-blue-200 hover:bg-blue-500 hover:text-white block px-3 py-2 rounded-md text-sm"
-            >About</a
-          >
-          <a
-            href="#"
-            class="text-blue-200 hover:bg-blue-500 hover:text-white block px-3 py-2 rounded-md text-sm"
-            >Services</a
-          >
-          <a
-            href="#"
-            class="text-blue-200 hover:bg-blue-500 hover:text-white block px-3 py-2 rounded-md text-sm"
-            >Contact</a
-          >
+            <a href="#" class="text-white hover:bg-blue-500 hover:text-white block px-3 py-2 rounded-md text-sm">Home</a>
+            <a href="#" class="text-blue-200 hover:bg-blue-500 hover:text-white block px-3 py-2 rounded-md text-sm">About</a>
+            <a href="#" class="text-blue-200 hover:bg-blue-500 hover:text-white block px-3 py-2 rounded-md text-sm">Services</a>
+            <a href="#" class="text-blue-200 hover:bg-blue-500 hover:text-white block px-3 py-2 rounded-md text-sm">Contact</a>
         </div>
-      </div>
-    </nav>
-    <h1 class="text-white bg-blue-400 px-1 py-2 rounded size-10">test</h1>
+    </div>
+</nav>
 
-    <script>
-      // JavaScript for toggling the mobile menu
-      document.addEventListener("DOMContentLoaded", function () {
-        const menuButton = document.querySelector("nav button");
-        const menu = document.getElementById("mobile-menu");
+<script>
+    // JavaScript for toggling the mobile menu
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuButton = document.querySelector('nav button');
+        const menu = document.getElementById('mobile-menu');
+        const openIcon = menuButton.querySelector('img:nth-child(1)');
+        const closeIcon = menuButton.querySelector('img:nth-child(2)');
 
-        menuButton.addEventListener("click", () => {
-          menu.classList.toggle("hidden");
+        menuButton.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            openIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
         });
-      });
-    </script>
-
+    });
+</script>
     {% block content %} {% endblock %}
   </body>
 </html>
