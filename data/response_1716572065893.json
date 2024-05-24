@@ -1,0 +1,1899 @@
+[
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/16",
+    "stránka": "https://www.hzscr.cz/hzs-hlavniho-mesta-prahy-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70886288"
+    },
+    "informace": [
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/16/info/142905",
+        "url": "https://www.hzscr.cz/clanek/uredni-deska-hasicskeho-zachranneho-sboru-hl-m-prahy.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "ÚŘEDNÍ DESKA HASIČSKÉHO ZÁCHRANNÉHO SBORU HL. M. PRAHY"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      }
+    ]
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/17",
+    "stránka": "https://www.hzscr.cz/hzs-stredoceskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70885371"
+    },
+    "informace": []
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/18",
+    "stránka": "https://www.hzscr.cz/hzs-jihoceskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70882835"
+    },
+    "informace": []
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/19",
+    "stránka": "https://www.hzscr.cz/hzs-plzenskeho-kraje-menu-informacni-servis-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70883378"
+    },
+    "informace": [
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/19/info/170",
+        "url": "https://www.hzscr.cz/clanek/hzs-plzenskeho-kraje-menu-informacni-servis-uredni-deska-pro-ucely-nemocenskeho-pojisteni.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Pro účely nemocenského pojištění"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/19/info/1053019",
+        "url": "https://www.hzscr.cz/clanek/hzs-plzenskeho-kraje-menu-sluzby-pro-verejnost-elektronicka-podatelna-elektronicka-podatelna.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Elektronická podatelna"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/19/info/1053020",
+        "url": "https://www.hzscr.cz/clanek/uredni-doba-podatelny.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Úřední doba podatelny"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/19/info/1053021",
+        "url": "https://www.hzscr.cz/clanek/uredni-doba-pro-nahlizeni-do-spisu.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Úřední doba pro nahlížení do spisu"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      }
+    ]
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/20",
+    "stránka": "https://www.hzscr.cz/hzs-karlovarskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70883611"
+    },
+    "informace": []
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/21",
+    "stránka": "https://www.hzscr.cz/hzs-usteckeho-kraje-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70886300"
+    },
+    "informace": [
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/21/info/171",
+        "url": "https://www.hzscr.cz/clanek/podatelna-e-podatelna-a-uredni-hodiny.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Podatelna, e-podatelna a úřední hodiny"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/21/info/172",
+        "url": "https://www.hzscr.cz/clanek/uredni-deska-povinne-zverejnovane-informace-povinne-zverejnovane-informace.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Povinně zveřejňované informace"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/21/info/173",
+        "url": "https://www.hzscr.cz/clanek/informace-pro-ucely-nemocenskeho-pojisteni-informace-pro-ucely-nemocenskeho-pojisteni.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Informace pro účely nemocenského pojištění"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/21/info/174",
+        "url": "https://www.hzscr.cz/clanek/uredni-deska-verejnopravni-smlouvy-verejnopravni-smlouvy.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Veřejnoprávní smlouvy"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Vejprty - Měděnec.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/verejnopravni-smlouvy-ke-kterym-dal-hzs-uk-souhlas-vejprty-medenec-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Všehrdy - Droužkovice.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/verejnopravni-smlouvy-ke-kterym-dal-hzs-uk-souhlas-vsehrdy-drouzkovice-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Račiněves - Straškov.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/verejnopravni-smlouvy-ke-kterym-dal-hzs-uk-souhlas-racineves-straskov-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/21/info/1053060",
+        "url": "https://www.hzscr.cz/clanek/oznameni-o-moznosti-prevzit-pisemnost-c-j-hsul-4419-8-cv-2023.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Oznámení o možnosti převzít písemnost č. j. HSUL- 4419-8/CV-2023."
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "2023_12_08-Doručení rozhodnutí veřejnou vyhláškou-HSUL-__4419-8_CV-2023.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/2023-12-08-doruceni-rozhodnuti-verejnou-vyhlaskou-hsul-4419-8-cv-2023-pdf.aspx"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/22",
+    "stránka": "https://www.hzscr.cz/hzs-libereckeho-kraje-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70888744"
+    },
+    "informace": [
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/22/info/1053079",
+        "url": "https://www.hzscr.cz/clanek/sluzby-pro-verejnost-podatelna-organu-nemocenskeho-pojisteni-podatelna-organu-nemocenskeho-pojisteni.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Podatelna orgánu nemocenského pojištění"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/22/info/1053080",
+        "url": "https://www.hzscr.cz/clanek/informace-o-dorucovani.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Informace o doručování"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/22/info/1053081",
+        "url": "https://www.hzscr.cz/clanek/informace-dle-zakona-c-106-1999-sb-informace-dle-zakona-c-106-1999-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Informace dle zákona č. 106/1999 Sb"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      }
+    ]
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/23",
+    "stránka": "https://www.hzscr.cz/hzs-kralovehradeckeho-kraje-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70882525"
+    },
+    "informace": []
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/24",
+    "stránka": "https://www.hzscr.cz/hzs-pardubickeho-kraje-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70885869"
+    },
+    "informace": [
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253265",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2021-podle-zak-c-106-1999-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2021 podle zák. č. 106/1999 Sb."
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2022-01-07"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Výroční zpráva za rok 2021.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-za-rok-2021-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253266",
+        "url": "https://www.hzscr.cz/clanek/rocni-zprava-o-stavu-pozarni-ochrany-v-kraji-a-o-cinnosti-a-hospodareni-hzs-pardubickeho-kraje-2020.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Roční zpráva o stavu požární ochrany v kraji a o činnosti a hospodaření HZS Pardubického kraje 2020"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2021-04-06"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "ROČNÍ ZPRÁVA O STAVU PO V PARDUBICKÉM KRAJI ZA ROK 2020.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/rocni-zprava-o-stavu-po-v-pardubickem-kraji-za-rok-2020-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253267",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2020-podle-zak-c-106-1999-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2020 podle zák. č. 106/1999 Sb."
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2021-03-22"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Výroční zpráva poskytování info za rok 2020.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-poskytovani-info-za-rok-2020-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253268",
+        "url": "https://www.hzscr.cz/clanek/rocni-zprava-o-stavu-pozarni-ochrany-v-kraji-a-o-cinnosti-a-hospodareni-hzs-pardubickeho-kraje-2019.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Roční zpráva o stavu požární ochrany v kraji a o činnosti a hospodaření HZS Pardubického kraje 2019"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2020-04-08"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Roční zpráva o stavu PO v Pardubickém kraji za rok 2019.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/rocni-zprava-o-stavu-po-v-pardubickem-kraji-za-rok-2019-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253269",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2019-podle-zak-c-106-1999-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2019 podle zák. č. 106/1999 Sb."
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2020-01-06"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "výroční zpráva 2019 podle 106.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-2019-podle-106-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253270",
+        "url": "https://www.hzscr.cz/clanek/rocni-zprava-o-stavu-pozarni-ochrany-v-kraji-a-o-cinnosti-a-hospodareni-hzs-pardubickeho-kraje-2018.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Roční zpráva o stavu požární ochrany v kraji a o činnosti a hospodaření HZS Pardubického kraje 2018"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2019-04-25"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Roční zpráva o stavu PO 2018.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/rocni-zprava-o-stavu-po-2018-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253271",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2018-podle-zak-c-106-1999-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2018 podle zák. č. 106/1999 Sb."
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2019-04-25"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Výroční zpráva poskytování info 2018.docx"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-poskytovani-info-2018-docx.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253272",
+        "url": "https://www.hzscr.cz/clanek/rocni-zprava-o-stavu-pozarni-ochrany-v-kraji-a-o-cinnosti-a-hospodareni-hzs-pardubickeho-kraje-2017.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Roční zpráva o stavu požární ochrany v kraji a o činnosti a hospodaření HZS Pardubického kraje 2017"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2018-04-12"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "ROČNÍ ZPRÁVA O STAVU PO V KRAJI - 2017.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/rocni-zprava-o-stavu-po-v-kraji-2017-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253273",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2017-podle-zak-c-106-1999-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2017 podle zák. č. 106/1999 Sb."
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2018-01-11"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Výroční zpráva dle 106 2017.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-dle-106-2017-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253274",
+        "url": "https://www.hzscr.cz/clanek/rocni-zprava-o-stavu-pozarni-ochrany-v-kraji-a-o-cinnosti-a-hospodareni-hzs-pardubickeho-kraje-2016.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Roční zpráva o stavu požární ochrany v kraji a o činnosti a hospodaření HZS Pardubického kraje 2016"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2017-03-30"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "ROČNÍ ZPRÁVA o stavu PO v kraji rok 2016 .pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/rocni-zprava-o-stavu-po-v-kraji-rok-2016-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253275",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2016-podle-zak-c-106-1999-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2016 podle zák. č. 106/1999 Sb."
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2017-01-20"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Výroční zpráva o poskytování info 2016.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-o-poskytovani-info-2016-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253276",
+        "url": "https://www.hzscr.cz/clanek/rocni-zprava-o-stavu-pozarni-ochrany-v-kraji-a-o-cinnosti-a-hospodareni-hzs-pardubickeho-kraje-2015.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Roční zpráva o stavu požární ochrany v kraji a o činnosti a hospodaření HZS Pardubického kraje 2015"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2016-04-08"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Roční zpráva o stavu PO v Pardubickém kraji za rok 2015.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/rocni-zprava-o-stavu-po-v-pardubickem-kraji-za-rok-2015-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253277",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2015-podle-zak-c-106-1999-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2015 podle zák. č. 106/1999 Sb."
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2016-01-08"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Výroční zpráva o poskytování info 2015.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-o-poskytovani-info-2015-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253278",
+        "url": "https://www.hzscr.cz/clanek/rocni-zprava-o-stavu-pozarni-ochrany-v-kraji-a-o-cinnosti-a-hospodareni-hzs-pardubickeho-kraje-2014.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Roční zpráva o stavu požární ochrany v kraji a o činnosti a hospodaření HZS Pardubického kraje 2014"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2015-04-24"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Roční zpráva o stavu PO v kraji za rok 2014.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/rocni-zprava-o-stavu-po-v-kraji-za-rok-2014-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253279",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2014-podle-zak-c-106-1999-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2014 podle zák. č. 106/1999 Sb."
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2015-01-09"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Výroční zpráva dle 106.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-dle-106-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253280",
+        "url": "https://www.hzscr.cz/clanek/rocni-zprava-o-stavu-pozarni-ochrany-v-kraji-a-o-cinnosti-a-hospodareni-hzs-pardubickeho-kraje-2013.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Roční zpráva o stavu požární ochrany v kraji a o činnosti a hospodaření HZS Pardubického kraje 2013"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2014-04-02"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "ROČNÍ ZPRÁVA O STAVU PO V KRAJI ZA ROK 2013.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/rocni-zprava-o-stavu-po-v-kraji-za-rok-2013-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253281",
+        "url": "https://www.hzscr.cz/clanek/rocni-zprava-o-stavu-pozarni-ochrany-v-kraji-a-o-cinnosti-a-hospodareni-hzs-pardubickeho-kraje-2012.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Roční zpráva o stavu požární ochrany v kraji a o činnosti a hospodaření HZS Pardubického kraje 2012"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2013-03-19"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "ROČNÍ ZPRÁVA O STAVU PO V KRAJI ZA ROK 2012.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/rocni-zprava-o-stavu-po-v-kraji-za-rok-2012-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253282",
+        "url": "https://www.hzscr.cz/clanek/sluzby-pro-verejnost-uredni-deska-vyrocni-zprava-2013-podle-zak-c-106-1999-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2013 podle zák. č. 106/1999 Sb."
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2014-01-14"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Výroční zpráva podle 106.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-podle-106-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253283",
+        "url": "https://www.hzscr.cz/clanek/rocni-zprava-o-stavu-pozarni-ochrany-v-kraji-a-o-cinnosti-a-hospodareni-hzs-pardubickeho-kraje-2011.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Roční zpráva o stavu požární ochrany v kraji a o činnosti a hospodaření HZS Pardubického kraje 2011"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2012-03-07"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "ROČNÍ ZPRÁVA O STAVU PO V KRAJI 2011.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/rocni-zprava-o-stavu-po-v-kraji-2011-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253284",
+        "url": "https://www.hzscr.cz/clanek/rocni-zprava-2010.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Roční zpráva 2010"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2011-08-15"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Roční zpráva 2010.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/rocni-zprava-2010-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/253285",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2010.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2010"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2011-08-05"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Výroční zpráva 2010.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-2010-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/1051795",
+        "url": "https://www.hzscr.cz/clanek/rocni-zprava-o-stavu-pozarni-ochrany-v-kraji-a-o-cinnosti-a-hospodareni-hzs-pardubickeho-kraje-2021.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Roční zpráva o stavu požární ochrany v kraji a o činnosti a hospodaření HZS Pardubického kraje 2021"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2022-04-19"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "ROČNÍ ZPRÁVA O STAVU PO V KRAJI 2021.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/rocni-zprava-o-stavu-po-v-kraji-2021-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/1053118",
+        "url": "https://www.hzscr.cz/clanek/rocni-zprava-o-stavu-pozarni-ochrany-v-kraji-a-o-cinnosti-a-hospodareni-hzs-pardubickeho-kraje-2022.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Roční zpráva o stavu požární ochrany v kraji a o činnosti a hospodaření HZS Pardubického kraje 2022"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2023-03-31"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "ROČNÍ ZPRÁVA O STAVU PO V KRAJI 2022.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/rocni-zprava-o-stavu-po-v-kraji-2022-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/1053119",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2023-podle-zak-c-106-1999-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2023 podle zák. č. 106/1999 Sb."
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2023-01-04"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Výroční zpráva  info za rok 2023.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-info-za-rok-2023-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/1053120",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2022-podle-zak-c-106-1999-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2022 podle zák. č. 106/1999 Sb."
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2023-01-09"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Výroční zpráva poskytování info 2022.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-poskytovani-info-2022-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/1053121",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zpravy-2012.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2012"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Výroční zpráva 2012.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-2012-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/1053122",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2011.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2011"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Výroční zpráva poskytování info 2011.docx"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-poskytovani-info-2011-docx.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/1053123",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2009.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2009"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "vyrocni-zprava-2009.doc"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-2009-doc.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/1053124",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2008.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2008"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "vyrocni-zprava-2008.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-2008-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/1053125",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2007.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2007"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "vyrocni-zprava-2007.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-2007-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/24/info/1053126",
+        "url": "https://www.hzscr.cz/clanek/vyrocni-zprava-2006.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Výroční zpráva 2006"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "vyrocni-zprava-2006.doc"
+            },
+            "url": "https://www.hzscr.cz/soubor/vyrocni-zprava-2006-doc.aspx"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/25",
+    "stránka": "https://www.hzscr.cz/hzs-kraje-vysocina-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70885184"
+    },
+    "informace": []
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/26",
+    "stránka": "https://www.hzscr.cz/hzs-jihomoravskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70884099"
+    },
+    "informace": [
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/26/info/253286",
+        "url": "https://www.hzscr.cz/clanek/informace-o-provozu-podatelny-a-podminkach-prijimani-dokumentu.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Informace o provozu podatelny a podmínkách přijímání dokumentů"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Informace o provozu podatelny a podmínkách přijímání dokumentů.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/informace-o-provozu-podatelny-a-podminkach-prijimani-dokumentu-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/26/info/253287",
+        "url": "https://www.hzscr.cz/clanek/informace-pro-ucely-nemocenskeho-pojisteni-dle-zakona-c-187-2006-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Informace pro účely nemocenského pojištění dle zákona č. 187/2006_Sb"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Informace_pro_ucely_nemocenskeho_pojisteni_dle_zakona_c._187_2006_Sb.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/informace-pro-ucely-nemocenskeho-pojisteni-dle-zakona-c-187-2006-sb-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/26/info/253288",
+        "url": "https://www.hzscr.cz/clanek/hzs-jihomoravskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-uredni-hodiny.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Úřední hodiny"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/26/info/1053163",
+        "url": "https://www.hzscr.cz/clanek/verejne-vyhlasky.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Veřejné vyhlášky"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      }
+    ]
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/27",
+    "stránka": "https://www.hzscr.cz/hzs-olomouckeho-kraje-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70885940"
+    },
+    "informace": [
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/27/info/253289",
+        "url": "https://www.hzscr.cz/clanek/podatelna-hasicskeho-zachranneho-sboru-olomouckeho-kraje.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Podatelna Hasičského záchranného sboru Olomouckého kraje"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/27/info/253290",
+        "url": "https://www.hzscr.cz/clanek/hzs-olomouckeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-informace-pro-ucely-plneni-povinnosti-v-ramci-nemocenskeho-pojisteni.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Informace pro účely plnění povinností v rámci nemocenského pojištění"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      }
+    ]
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/28",
+    "stránka": "https://www.hzscr.cz/hzs-moravskoslezskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70884561"
+    },
+    "informace": [
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/28/info/201",
+        "url": "https://www.hzscr.cz/clanek/hzs-moravskoslezskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-verejnopravni-smlouvy-podle-zakona-o-pozarni-ochrane.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Veřejnoprávní smlouvy podle zákona o požární ochraně"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2021-01-07"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_mezi_Mestysem_Litultovice_a_Obci_Mladecko.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/smlouva-mezi-mestysem-litultovice-a-obci-mladecko-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_Detrichov_Bridlicna.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/hzs-moravskoslezskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-smlouva-detrichov-bridlicna-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_TATRA_TRUCKS_a.s._a_TATRA_METALURGIE_a.s..pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/hzs-moravskoslezskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-smlouva-tatra-trucks-a-s-a-tatra-metalurgie-a-s-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_mezi_obcemi_Hrabyně_a_Budišovice.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/hzs-moravskoslezskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-smlouva-mezi-obcemi-hrabyne-a-budisovice-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_spolecnost_MSA,_a.s._Mesto_Dolni_Benesov.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/smlouva-spolecnost-msa-a-s-mesto-dolni-benesov-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_mezi_Mestysem_Litultovice_a_Obci_Bratrikovice.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/hzs-moravskoslezskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-smlouva-mezi-mestysem-litultovice-a-obci-bratrikovice-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_mezi_Obci_Smilovice_a_Obci_Hnojnik.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/hzs-moravskoslezskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-smlouva-mezi-obci-smilovice-a-obci-hnojnik-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_mezi_obcemi_Morkov_a_Zivotice_u_Noveho_Jicina.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/smlouva-mezi-obcemi-morkov-a-zivotice-u-noveho-jicina-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_Bruntal_a_Moravskoslezsky_Kocov.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/smlouva-bruntal-a-moravskoslezsky-kocov-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_mesto_Bruntal_obec_Nove_Herminovy.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/smlouva-mesto-bruntal-obec-nove-herminovy-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_mesto_Bruntal_obec_Valsov.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/smlouva-mesto-bruntal-obec-valsov-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_mesto_Bruntal_Stare_Mesto.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/smlouva-mesto-bruntal-stare-mesto-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_mesto_Bruntal_obec_Dlouha_Stran.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/smlouva-mesto-bruntal-obec-dlouha-stran-pdf.aspx"
+          },
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "Smlouva_Bruntal_a_Nova_Plan.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/smlouva-bruntal-a-nova-plan-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/28/info/202",
+        "url": "https://www.hzscr.cz/clanek/hzs-moravskoslezskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-nemocenske-pojisteni.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Nemocenské pojištění"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2022-01-07"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "2021_05_12-Organy_nemocenskeho_pojisteni-1.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/2021-05-12-organy-nemocenskeho-pojisteni-1-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/28/info/203",
+        "url": "https://www.hzscr.cz/clanek/hzs-moravskoslezskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-informace-dle-zakona-c-106-1999-sb.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "INFORMACE DLE ZÁKONA č. 106/1999 Sb."
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2023-05-09"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": [
+          {
+            "typ": "Digitální objekt",
+            "název": {
+              "cs": "2023_05_09-Uredni_deska_106_1999.pdf"
+            },
+            "url": "https://www.hzscr.cz/soubor/2023-05-09-uredni-deska-106-1999-pdf.aspx"
+          }
+        ]
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/28/info/204",
+        "url": "https://www.hzscr.cz/clanek/hzs-moravskoslezskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-uredni-hodiny.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "ÚŘEDNÍ HODINY"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "datum": "2022-01-07"
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/28/info/205",
+        "url": "https://www.hzscr.cz/clanek/hzs-moravskoslezskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-sazebnik-uhrad-za-poskytovani-informaci.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "SAZEBNÍK ÚHRAD ZA POSKYTOVÁNÍ INFORMACÍ"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/28/info/1053200",
+        "url": "https://www.hzscr.cz/clanek/oznameni-o-moznosti-prevzit-si-pisemnost-marek-antos.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Oznámení o možnosti převzít si písemnost – Marek Antoš"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/28/info/1053201",
+        "url": "https://www.hzscr.cz/clanek/hzs-moravskoslezskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-kamery.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Kamery"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      }
+    ]
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/29",
+    "stránka": "https://www.hzscr.cz/hzs-zlinskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "70887306"
+    },
+    "informace": [
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/29/info/1053221",
+        "url": "https://www.hzscr.cz/clanek/nemocenske-pojisteni.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Nemocenské pojištění"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/29/info/1053222",
+        "url": "https://www.hzscr.cz/clanek/uredni-deska-verejne-vyhlasky-verejne-vyhlasky.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Veřejné vyhlášky"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/29/info/1053223",
+        "url": "https://www.hzscr.cz/clanek/hzs-zlinskeho-kraje-menu-sluzby-pro-verejnost-uredni-deska-uredni-deska.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Úřední deska"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      },
+      {
+        "typ": [
+          "Digitální objekt",
+          "Informace na úřední desce"
+        ],
+        "iri": "https://opendata-test.mvcr.cz/api/boards/29/info/1702919",
+        "url": "https://www.hzscr.cz/clanek/podatelna-hasicskeho-zachranneho-sboru-zlinskeho-kraje.aspx",
+        "číslo_jednací": "",
+        "název": {
+          "cs": "Podatelna Hasičského záchranného sboru Zlínského kraje"
+        },
+        "vyvěšení": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "relevantní_do": {
+          "typ": "Časový okamžik",
+          "nespecifikovaný": true
+        },
+        "dokument": []
+      }
+    ]
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/30",
+    "stránka": "https://www.hzscr.cz/zachranny-utvar-hzs-cr-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "75152304"
+    },
+    "informace": []
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/31",
+    "stránka": "https://www.hzscr.cz/sos-po-a-vos-po-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "64122654"
+    },
+    "informace": []
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/113",
+    "stránka": "https://www.hzscr.cz/zachranny-utvar-hzs-cr-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "75152304"
+    },
+    "informace": []
+  },
+  {
+    "@context": "https://ofn.gov.cz/úřední-desky/2021-07-20/kontexty/úřední-deska.jsonld",
+    "typ": "Úřední deska",
+    "iri": "https://opendata-test.mvcr.cz/api/boards/114",
+    "stránka": "https://www.hzscr.cz/sos-po-a-vos-po-menu-sluzby-pro-verejnost-uredni-deska.aspx",
+    "provozovatel": {
+      "typ": "Osoba",
+      "ičo": "64122654"
+    },
+    "informace": []
+  }
+]
