@@ -1,15 +1,15 @@
 {% load static %}
 <html>
     <head>
-        <link rel="stylesheet" href="{% static 'base.css' %}">
-    </head>
-    <body>
-
-
-        {% block content %}
-            <h1>test</h1>
-        {% endblock %}
-
+        <link rel="stylesheet" href="{% static 'base.css' %}"><link href="./output.css" rel="stylesheet">
+      </head>
+      <body>
+  
+  
+          {% block content %}
+              <h1 class="text-white bg-blue-400 px-1 py-2 rounded size-10">test</h1>
+          {% endblock %}
+  
 
     </body>
 
