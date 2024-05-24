@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-dfkraje = pd.read_csv("duchodci-v-cr-krajich-okresech.csv")
+dfkraje = pd.read_csv("udesky/duchodci-v-cr-krajich-okresech.csv")
 dfkraje['rok'] = dfkraje['referencni_obdobi'].apply(lambda x: x.split('-')[0])
 
 duchodci = dfkraje[
