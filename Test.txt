@@ -1,0 +1,1 @@
+npx tailwindcss -i ./hackiton/udesky/static/input.css -o ./hackiton/udesky/templates/output.css --watch
