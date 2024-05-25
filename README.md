@@ -1,11 +1,11 @@
 # Důchodci a Zbraně 
 
-Grafy o důchodcích, zbraních a policii na základě informací získaných z [OpenData](https://opendata.gov.cz/)
+Grafy a Mapy o důchodcích, zbraních a policii na základě informací získaných z [OpenData](https://opendata.gov.cz/)
 
 ## Contetnty
 - [Instalace](#instalace)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Použití](#pouziti)
+- [Přispívající k projektu](#prispivaci)
 - [License](#license)
 
 ## Instalace
@@ -28,18 +28,15 @@ python manage.py runserver
 python manage.py tailwind start
 ```
 
+## Použití
+Objeví se vám web a můžete se proklikat, kam byste se chtěli podívat. 
+Máme tu mapy a grafy, od tuď si zjistítte informace pro vaše užití. 
 
-## Usage
+## Přispívající k Projektu
 
-[Usage instructions]
-
-## Contributing
-
-[Contribution guidelines]
+- [@Janxyxy](https://github.com/Janxyxy) - Backenďák
+- [@honzanugeta](https://github.com/honzanugeta) - Frontenďák
+- [@jkfmCZ](https://github.com/jkfmCZ) - Backenďák
 
 ## License
-
-[License information]
-
-![Image Name](image_url)
-
+Nemáme licensi 😞
