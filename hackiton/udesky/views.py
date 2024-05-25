@@ -5,8 +5,13 @@ import plotly.express as px
 from django.shortcuts import render
 from plotly.offline import plot
 import plotly.graph_objects as go
+<<<<<<< HEAD
 from .graph_gen import duchodci, fig_soudy
 from .pcr_nalezy import fig_pcr, fig_pcr_tabulka
+=======
+from .graph_gen import duchodci, fig
+from .pcr_nalezy import fig_pcr, fig_pcr_tabulka, fig_cr_line, fig_cr_tree
+>>>>>>> d04bd2022bc4f546ab3bb019f19c4e318c9250e4
 
 
 def index(request):
@@ -16,20 +21,14 @@ def fotky(request):
     return render(request, "fotky.html",{})
 
 def duchodci_rok(request):
-    fig = px.bar(duchodci, x="rok", y="pocet_duchodcu", title="Počet důchodců")
-    pplot = plot(fig, output_type='div')
-    return render(request, "duchodci_rok.html", {"plot":pplot})
-
-def pcr_nalezy(request):
-
-
-    pplot = plot(fig_pcr, output_type='div')
+    
+    pplot_line = plot(fig_cr_line, output_type='div')
+    pplot_tree = plot(fig_cr_tree,output_type="div")
+    return render(request, "duchodci_rok.html", {"plot_line":pplot_line,"plot_tree":pplot_tree})
+    # ptable = plot(fig_pcr_tabulka, output_type='div')
 
 
-    ptable = plot(fig_pcr_tabulka, output_type='div')
-
-
-    return render(request, "pcr_nalezy.html", {"plot": pplot, "table": ptable})
+    # return render(request, "pcr_nalezy.html", {"plot": pplot, "table": ptable})
 
 def soudy(request):
     pplot = plot(fig_soudy, output_type='div')
