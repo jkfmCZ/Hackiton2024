@@ -21,9 +21,9 @@ def duchodci_rok(request):
    
 def pcr_nalezy(request):
     ptable = plot(fig_pcr_tabulka, output_type='div')
+    pplot = p
 
-
-    return render(request, "pcr_nalezy.htmlku", {"plot": pplot, "table": ptable})
+    return render(request, "pcr_nalezy.html", {"plot": pplot, "table": ptable})
 
 def soudy(request):
     pplot = plot(fig, output_type='div')
