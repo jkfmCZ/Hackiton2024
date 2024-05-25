@@ -4,7 +4,7 @@ import plotly.offline as plot
 import json
 
 
-dfkraje = pd.read_csv("udesky/data/duchodci-v-cr-krajich-okresech.csv") #editoval jsem cestu mozna bude potreba zmenit
+dfkraje = pd.read_csv("udesky/data/duchodci-v-cr-krajich-okresech.csv") 
 dfkraje['rok'] = dfkraje['referencni_obdobi'].apply(lambda x: x.split('-')[0])
 
 duchodci = dfkraje[
@@ -48,7 +48,7 @@ for x in listerpister:
     df_count_per_year.reset_index(drop=True, inplace=True)
 
     df_count_per_year.sort_values(by=["rok_vyvěšení"], ascending=False)
-    df_d.at[b, "nazev_okresu"] = jmena[b]
+    df_d.at[b, "Okresy"] = jmena[b]
     pocet = df_count_per_year.shape[0]
     for i in range(pocet):
         if df_count_per_year["rok_vyvěšení"].loc[i] < 2018:
@@ -60,7 +60,7 @@ for x in listerpister:
     # print(df_d)
     b += 1
 for i in range(0,2):
-      df_d.at[b, "nazev_okresu"] = jmena[b]
+      df_d.at[b, "Okresy"] = jmena[b]
       b+=1
 
 # Append the dictionary to the DataFrame
@@ -75,8 +75,4 @@ for i in range(0,2):
 
 print(df_d.to_string)
 
-fig = px.bar(df_d, x="nazev_okresu", y=2023, title="Počet soudů v rokach")
-
-
-
-
+fig_soudy = px.bar(df_d, x="Okresy", y=2023, title="Počet soudů v okresech Ústeckého kraje",)
