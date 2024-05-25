@@ -9,9 +9,6 @@ Grafy o důchodcích, zbraních a policii na základě informací získaných z 
 - [License](#license)
 
 ## Instalace
-
-## Rychlý start
-
 Pro naklonování našeho projektu a začátek práce postupujte podle těchto kroků:
 
 1. Naklonujte repozitář:
