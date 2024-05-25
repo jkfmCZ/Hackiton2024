@@ -9,17 +9,17 @@ from .graph_gen import duchodci
 def index(request):
     return render(request, "index.html",{})
 
+def fotky(request):
+    return render(request, "fotky.html",{})
+
 def duchodci_rok(request):
     fig = px.bar(duchodci, x="rok", y="pocet_duchodcu", title="Počet důchodců")
     pplot = plot(fig, output_type='div')
     return render(request, "duchodci_rok.html", {"plot":pplot})
 
-
-
 def pcr_nalezy(request):
 
-    #bar plot
-
+    #Bar chart
     df_prc = pd.read_json("udesky/data/pcr_filtered_informace.json")
 
     df_prc['vyvěšení'] = pd.to_datetime(df_prc['vyvěšení'])
@@ -32,13 +32,16 @@ def pcr_nalezy(request):
 
     pplot = plot(fig, output_type='div')
 
-    #table?
+    #Tabulka
     df_prc = pd.read_json("udesky/data/pcr_filtered_informace.json")
 
-    df_prc['vyvěšení'].replace('', pd.NA, inplace=True)
+    df_prc['vyvěšení'].replace('', 'No date', inplace=True)
 
     fig = go.Figure(data=[go.Table(
-    header=dict(values=list(df_prc.columns),
+        columnwidth = [50,400],
+           
+    header=dict(values=[['<b>Datum</b>'],
+                  ['<b>Oznámení</b>']],
                 fill_color='royalblue',
                 align='left',
                 font=dict(color='white', size=12)),  # Added closing parenthesis here

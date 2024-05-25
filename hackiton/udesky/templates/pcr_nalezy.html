@@ -1,7 +1,25 @@
 {% extends "base.html" %} {% block content %}
 
-<div class="container">
-  <div class="plotly-graph-div">{{ plot|safe }}</div>
-  <div class="plotly-graph-div">{{ table|safe }}</div>
+<div class="container mx-auto p-4">
+  <div class="bg-white shadow-md rounded-lg p-6 mb-4">
+    <div class="plotly-graph-div" id="plot-container">{{ plot|safe }}</div>
+  </div>
+  <div class="bg-white shadow-md rounded-lg p-6">
+    <div class="plotly-graph-div" id="table-container">{{ table|safe }}</div>
+  </div>
+  <div>
+    <button
+      onclick="openNewTab()"
+      class="bg-white text-gray-800 px-4 py-2 mt-4 rounded font-bold hover:bg-gray-800 hover:text-white"
+    >
+      Data 📊
+    </button>
+  </div>
 </div>
+
+<script>
+  function openNewTab() {
+    window.open("https://opendata-test.mvcr.cz/api/boards?type=pcr", "_blank");
+  }
+</script>
 {% endblock %}
