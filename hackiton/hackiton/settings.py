@@ -50,6 +50,7 @@ INTERNAL_IPS = [
 ]
 import os
 
+
 NPM_BIN_PATH = "C:/Program Files/nodejs/npm.cmd"
 
 MIDDLEWARE = [
