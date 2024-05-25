@@ -1,12 +1,15 @@
 {
   "devDependencies": {
-    "tailwindcss": "^3.4.3"
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "yaml": "^2.4.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tailwindcss -i ./hackiton/udesky/static/input.css -o ./hackiton/udesky/templates/output.css --watch"
   },
   "dependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "semver": "^5.7.2"
   }
 }
