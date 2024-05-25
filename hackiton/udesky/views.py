@@ -5,7 +5,7 @@ from django.shortcuts import render
 from plotly.offline import plot
 import plotly.graph_objects as go
 from .graph_gen import  fig_cr_line, fig_cr_tree, df_kraje
-from .pcr_nalezy import fig_pcr, fig_pcr_tabulka
+from .pcr_nalezy import fig_pcr, fig_pcr_tabulka, fig_cr_tree
 
 
 def index(request):
@@ -21,11 +21,11 @@ def duchodci_rok(request):
     return render(request, "duchodci_rok.html", {"plot_line":pplot_line,"plot_tree":pplot_tree})
    
 def pcr_nalezy(request):
-
+    tree_m = plot(fig_cr_tree, output_type="div")
     fig_bar = plot(fig_pcr, output_type='div')
     ptable = plot(fig_pcr_tabulka, output_type='div')
 
-    return render(request, "pcr_nalezy.html", {"plot": fig_bar, "table": ptable})
+    return render(request, "pcr_nalezy.html", {"plot": fig_bar, "table": ptable, "tree":tree_m})
 
 def soudy(request):
     pplot = plot(fig_cr_tree, output_type='div')
