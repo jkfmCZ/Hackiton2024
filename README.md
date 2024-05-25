@@ -39,4 +39,4 @@ Máme tu mapy a grafy, od tuď si zjistítte informace pro vaše užití.
 [@jkfmCZ](https://github.com/jkfmCZ) - Backenďák
 
 ## License
-Nemáme licenCi 😞
+Nemáme licensi 😞
