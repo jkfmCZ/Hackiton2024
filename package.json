@@ -5,5 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tailwindcss -i ./hackiton/udesky/static/input.css -o ./hackiton/udesky/templates/output.css --watch"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
   }
 }

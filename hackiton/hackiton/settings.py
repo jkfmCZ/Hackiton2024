@@ -50,12 +50,9 @@ INTERNAL_IPS = [
 ]
 import os
 
-<<<<<<< Updated upstream
 NPM_BIN_PATH = os.getenv('NPM_BIN_PATH', '/default/path/to/npm')
 #NPM_BIN_PATH = "C:/Program Files/nodejs/npm.cmd"
-=======
-NPM_BIN_PATH = "/usr/bin/npm"
->>>>>>> Stashed changes
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
