@@ -34,9 +34,9 @@ Máme tu mapy a grafy, od tuď si zjistítte informace pro vaše užití.
 
 ## Přispívající k Projektu
 
-[@Janxyxy](https://github.com/Janxyxy) - Backenďák
-[@honzanugeta](https://github.com/honzanugeta) - Frontenďák
-[@jkfmCZ](https://github.com/jkfmCZ) - Backenďák
+-[@Janxyxy](https://github.com/Janxyxy) - Backenďák
+-[@honzanugeta](https://github.com/honzanugeta) - Frontenďák
+-[@jkfmCZ](https://github.com/jkfmCZ) - Backenďák
 
 ## License
 Nemáme licensi 😞
