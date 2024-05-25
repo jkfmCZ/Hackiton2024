@@ -2,9 +2,6 @@ import pandas as pd
 import plotly.express as px
 from django.shortcuts import render
 from plotly.offline import plot
-
-
-
 from .graph_gen import duchodci
 
 
@@ -35,8 +32,8 @@ def pcr_nalezy(request):
     df_count['year_month'] = df_count['year_month'].dt.to_timestamp()
 
     # Create bar plot
-    fig = px.bar(df_count, x='year_month', y='count', title='Počet nálezů střeliva/zbraní v ČR podle měsíců (2010-2020)',
-                 labels={'year_month': 'Date', 'count': 'Počet nálezů střeliva/zbraní'})
+    fig = px.bar(df_count, x='year_month', y='count', title='Počet nálezů střeliva/zbraní v ČR podle měsíců (2022-2024)',
+                 labels={'year_month': 'Date', 'count': 'Počet nálezů střeliva/zbraní'},)
 
     # Generate the plot
     pplot = plot(fig, output_type='div')
