@@ -19,8 +19,7 @@ def duchodci_rok(request):
 
 def pcr_nalezy(request):
 
-    #bar plot
-
+    #Bar chart
     df_prc = pd.read_json("udesky/data/pcr_filtered_informace.json")
 
     df_prc['vyvěšení'] = pd.to_datetime(df_prc['vyvěšení'])
@@ -33,10 +32,10 @@ def pcr_nalezy(request):
 
     pplot = plot(fig, output_type='div')
 
-    #table?
+    #Tabulka
     df_prc = pd.read_json("udesky/data/pcr_filtered_informace.json")
 
-    df_prc['vyvěšení'].replace('', pd.NA, inplace=True)
+    df_prc['vyvěšení'].replace('', 'Nemáme data', inplace=True)
 
     fig = go.Figure(data=[go.Table(
         columnwidth = [50,400],
