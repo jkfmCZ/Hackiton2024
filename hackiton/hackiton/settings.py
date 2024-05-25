@@ -50,8 +50,7 @@ INTERNAL_IPS = [
 ]
 import os
 
-NPM_BIN_PATH = os.getenv('NPM_BIN_PATH', '/default/path/to/npm')
-#NPM_BIN_PATH = "C:/Program Files/nodejs/npm.cmd"
+NPM_BIN_PATH = "C:/Program Files/nodejs/npm.cmd"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
