@@ -4,11 +4,9 @@ import plotly.offline as plot
 import json
 
 
-dfkraje = pd.read_csv("udesky/data/duchodci-v-cr-krajich-okresech.csv") #editoval jsem cestu mozna bude potreba zmenit
-dfkraje['rok'] = dfkraje['referencni_obdobi'].apply(lambda x: x.split('-')[0])
 
 
-df = pd.read_csv("hackiton/udesky/data/duchodci-v-cr-krajich-okresech.csv")
+df = pd.read_csv("udesky/data/duchodci-v-cr-krajich-okresech.csv")
 df['referencni_obdobi'] = pd.to_datetime(df['referencni_obdobi'])
 df['rok'] = df['referencni_obdobi'].dt.year
 df["real_pocet"] = df["pocet_duchodcu"] *1000
@@ -19,7 +17,7 @@ df = df[df["pohlavi"] =="Celkem"]
 df_kraje = df[df['referencni_oblast'].str.contains("Kraj|kraj", na=False)]
 df_cr = df[df["referencni_oblast"]=="Česká republika"]
 df_cr
-fig_cr_line = px.line(df_cr, x="rok", y="real_pocet", title='Life expectancy in Canada')
+fig_cr_line = px.line(df_cr, x="rok", y="real_pocet", title='Důchodci jsou také  kriminálníci')
 
 fig_cr_tree = px.treemap(
     df_cr,
