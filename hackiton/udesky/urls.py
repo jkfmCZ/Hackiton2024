@@ -7,5 +7,6 @@ urlpatterns = [
     path("policie/", views.pcr_nalezy, name="policie"),
     path("fotky/", views.fotky, name="fotky"),
     path("soudy/", views.soudy, name="soudy"),
-    path("test/", views.test, name="soudy"),      #dev
+    path("test/", views.test, name="test"),  
+    path("testt",views.testt, name= " testt"),  #dev
     ]
