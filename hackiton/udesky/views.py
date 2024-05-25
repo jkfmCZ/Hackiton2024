@@ -2,6 +2,7 @@ import pandas as pd
 import plotly.express as px
 from django.shortcuts import render
 from plotly.offline import plot
+import plotly.graph_objects as go
 from .graph_gen import duchodci
 
 
@@ -16,27 +17,36 @@ def duchodci_rok(request):
 
 
 def pcr_nalezy(request):
-    # Load the data
+
+    #bar plot
+
     df_prc = pd.read_json("udesky/data/pcr_filtered_informace.json")
 
-    # Convert 'vyvěšení' column to datetime
     df_prc['vyvěšení'] = pd.to_datetime(df_prc['vyvěšení'])
-
-    # Extract year and month from 'vyvěšení' column
     df_prc['year_month'] = df_prc['vyvěšení'].dt.to_period('M')
-
-    # Group by year and month
     df_count = df_prc.groupby('year_month').size().reset_index(name='count')
-
-    # Convert 'year_month' back to datetime for plotting
     df_count['year_month'] = df_count['year_month'].dt.to_timestamp()
 
-    # Create bar plot
-    fig = px.bar(df_count, x='year_month', y='count', title='Počet nálezů střeliva/zbraní v ČR podle měsíců (2022-2024)',
-                 labels={'year_month': 'Date', 'count': 'Počet nálezů střeliva/zbraní'},)
+    fig = px.bar(df_count, x='year_month', y='count', title='Počet nálezů střeliva / zbraní v ČR podle měsíců (2022-2024)',
+                 labels={'year_month': 'Čas', 'count': 'střelivo / zbraně'},)
 
-    # Generate the plot
     pplot = plot(fig, output_type='div')
 
-    # Render the template with the plot
-    return render(request, "pcr_nalezy.html", {"plot": pplot})
+    #table?
+    df_prc = pd.read_json("udesky/data/pcr_filtered_informace.json")
+
+    df_prc['vyvěšení'].replace('', pd.NA, inplace=True)
+
+    fig = go.Figure(data=[go.Table(
+    header=dict(values=list(df_prc.columns),
+                fill_color='royalblue',
+                align='left',
+                font=dict(color='white', size=12)),  # Added closing parenthesis here
+    cells=dict(values=[df_prc['vyvěšení'], df_prc['název']],
+                fill_color=[['#f1f1f1', 'white'] * (len(df_prc) // 2)],
+               align='left'))
+])
+    ptable = plot(fig, output_type='div')
+
+
+    return render(request, "pcr_nalezy.html", {"plot": pplot, "table": ptable})

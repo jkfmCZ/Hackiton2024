@@ -1,7 +1,7 @@
 {% extends "base.html" %} {% block content %}
 
-<div>{{ plot|safe }}</div>
-<p class="text-white">
-  Data z https://opendata-test.mvcr.cz/api/boards?type=pcr
-</p>
+<div class="container">
+  <div class="plotly-graph-div">{{ plot|safe }}</div>
+  <div class="plotly-graph-div">{{ table|safe }}</div>
+</div>
 {% endblock %}
