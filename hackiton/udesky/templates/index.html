@@ -2,41 +2,45 @@
 <div class="container mx-auto px-4 py-8">
   <!-- Welcome Section -->
   <div
-    class="bg-gradient-to-r from-blue-600 to-purple-600 p-6 rounded-lg shadow-md mb-8 flex flex-col md:flex-row items-center justify-between"
-  >
+    class="bg-gradient-to-r from-blue-600 to-purple-600 p-6 rounded-lg shadow-md mb-8 flex flex-col md:flex-row items-center justify-between">
     <div class="md:w-1/2 mb-4 md:mb-0">
-      <h1 class="text-3xl font-bold mb-2 text-white">Jdu spát</h1>
+      <h1 class="text-3xl font-bold mb-2 text-white">Fotky z Heckatocu 2024</h1>
       <p class="text-white">
-        Zde napište nejaky text nevim. Nemáme skoro žádný data a Martin se
-        rozhodl že jde spát až do 15:00 super :)
+        Zde najdete fotky z hackatonu, který se konal v roce 2024.
       </p>
+      <button onclick="location.href='/fotky'"
+        class=" bg-white text-gray-800 px-4 py-2 mt-24 rounded font-bold hover:bg-gray-800 hover:text-white">
+        Fotky 🖼️
+      </button>
     </div>
     <div class="md:w-1/2 flex justify-end">
-      <img
-        src="{% static './images/ja.JPG' %}"
-        alt="Welcome Image"
-        class="rounded-lg shadow-md w-36 h-auto"
-      />
+      <img src="{% static './images/ja.JPG' %}" alt="Welcome Image" class="rounded-lg shadow-md w-36 h-auto" />
     </div>
   </div>
 
   <!-- Card Grid Section -->
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
     <!-- Card 1 -->
-    <div
-      class="bg-gradient-to-r to-gray-800 from-gray-900 rounded-lg shadow-md p-6"
-    >
-      <h2 class="text-xl font-bold mb-2 text-white">😎</h2>
-      <p class="text-gray-300 text-xl">
-        Náš web je lepší než matějův.
-      </p>
-      <button
-        class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
-      >
+    <div class="bg-gradient-to-r to-green-500 from-gray-900 rounded-lg shadow-md p-6 h-auto">
+      <h2 class="text-gray-300 text-xl font-bold">
+        Náš web je lepší než matějův 😎
+      </h2>
+      <br>
+      <button class="bg-white mt-4 text-gray-800 px-4 py-2 rounded hover:bg-gray-800 hover:text-white font-bold">
         Porazit Matava
+      </button>
+    </div>
+
+    <div class="bg-gradient-to-r to-orange-500 from-gray-900 rounded-lg shadow-md p-6 h-auto">
+      <h2 class="text-gray-300 text-xl font-bold">
+        Otevřená data uřední desky📊
+      </h2>
+      <br>
+      <button class="bg-white mt-4 text-gray-800 px-4 py-2 rounded hover:bg-gray-800 hover:text-white font-bold">
+        Open data
       </button>
     </div>
   </div>
 </div>
-  {% endblock %}
+{% endblock %}
 </div>
