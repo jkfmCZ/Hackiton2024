@@ -12,9 +12,15 @@ duchodci = dfkraje[
 
 
 
+<<<<<<< Updated upstream
 # file = "/udesky/data/soudy_decin.jsondl"
 # with open(file, 'r', encoding='utf-8') as file:
 #     data = json.load(file)
+=======
+file = "udesky/data/soudy_decin.jsonld"
+with open(file, 'r', encoding='utf-8') as file:
+    data = json.load(file)
+>>>>>>> Stashed changes
 
 
 # df = pd.json_normalize(data['informace'])
