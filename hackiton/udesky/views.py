@@ -35,7 +35,7 @@ def pcr_nalezy(request):
     #Tabulka
     df_prc = pd.read_json("udesky/data/pcr_filtered_informace.json")
 
-    df_prc['vyvěšení'].replace('', 'Nemáme data', inplace=True)
+    df_prc['vyvěšení'].replace('', 'No date', inplace=True)
 
     fig = go.Figure(data=[go.Table(
         columnwidth = [50,400],
