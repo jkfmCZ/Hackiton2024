@@ -7,23 +7,44 @@
   <body
     class="bg-fixed bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black"
   >
-  <nav class="bg-blue-600 shadow">
-    <div class="max-w-7xl mx-auto px-4 py-2 sm:px-6 lg:px-8">
+    <nav class="bg-gradient-to-r to-blue-600 from-purple-600 shadow">
+      <div class="max-w-7xl px-4 py-2 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
-            <div class="w-8 border-black border-2">
-              <img src="{% static './images/ja.JPG' %}" alt="Image description" >
-            </div>
-            <div class="hidden sm:block">
-                <div class="flex space-x-4">
-                    <a href="#" class="text-white hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                    <a href="#" class="text-blue-200 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
-                    <a href="#" class="text-blue-200 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Services</a>
-                    <a href="#" class="text-blue-200 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
-                </div>
-            </div>
+          <div class="flex-shrink-0">
+            <a href="#" class="text-white text-lg font-bold"
+              >Úřední desky open data</a
+            >
+          </div>
+          <!-- Navigation Links -->
+          <div class="hidden sm:flex space-x-4">
+            <a
+              href="/"
+              class="text-white hover:bg-blue-700 px-3 py-2 rounded-md text-sm font-medium"
+              >Home</a
+            >
+            <a
+              href="/policie"
+              class="text-blue-200 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >Policie</a
+            >
+            <a
+              href="/duchodci"
+              class="text-blue-200 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >Duchodci</a
+            >
+            <a
+              href="/"
+              class="text-blue-200 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >Neni</a
+            >
+          </div>
         </div>
-    </div>
-</nav>
-    {% block content %} {% endblock %}
+      </div>
+    </nav>
+    <main>
+      {% block content %}
+      <!-- Main content will be injected here -->
+      {% endblock %}
+    </main>
   </body>
 </html>
