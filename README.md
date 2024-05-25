@@ -1,17 +1,36 @@
 # Důchodci a Zbraně 
 
-Grafy o důchodcích, zbraních a policii na základě informací získaných z OpenData[OpenData](https://opendata.gov.cz/)
+Grafy o důchodcích, zbraních a policii na základě informací získaných z [OpenData](https://opendata.gov.cz/)
 
-## Table of Contents
-
-- [Installation](#installation)
+## Contetnty
+- [Instalace](#instalace)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installation
+## Instalace
 
-[Installation instructions]
+## Rychlý start
+
+Pro naklonování našeho projektu a začátek práce postupujte podle těchto kroků:
+
+1. Naklonujte repozitář:
+ ```bash
+   git clone https://github.com/tvoje-uzivatelske-jmeno/hackiton.git
+   ```
+2. Přejděte do adresáře projektu:
+```bash
+cd hackiton
+```
+3. Spusťte primární server pomocí:
+```bash
+python manage.py runserver
+```
+4. Dále spusťte TailwindCSS pomocí:
+```bash
+python manage.py tailwind start
+```
+
 
 ## Usage
 
