@@ -1,6 +1,6 @@
 # Důchodci a Zbraně 
 
-[Project Description]
+Grafy o důchodcích, zbraních a policii na základě informací získaných z OpenData[OpenData](https://opendata.gov.cz/)
 
 ## Table of Contents
 
