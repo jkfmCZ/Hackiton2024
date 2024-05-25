@@ -3,7 +3,8 @@ import plotly.express as px
 from django.shortcuts import render
 from plotly.offline import plot
 import plotly.graph_objects as go
-from .graph_gen import duchodci
+from .graph_gen import duchodci, fig
+from .pcr_nalezy import fig_pcr, fig_pcr_tabulka
 
 
 def index(request):
@@ -19,37 +20,15 @@ def duchodci_rok(request):
 
 def pcr_nalezy(request):
 
-    #Bar chart
-    df_prc = pd.read_json("udesky/data/pcr_filtered_informace.json")
 
-    df_prc['vyvěšení'] = pd.to_datetime(df_prc['vyvěšení'])
-    df_prc['year_month'] = df_prc['vyvěšení'].dt.to_period('M')
-    df_count = df_prc.groupby('year_month').size().reset_index(name='count')
-    df_count['year_month'] = df_count['year_month'].dt.to_timestamp()
+    pplot = plot(fig_pcr, output_type='div')
 
-    fig = px.bar(df_count, x='year_month', y='count', title='Počet nálezů střeliva / zbraní v ČR podle měsíců (2022-2024)',
-                 labels={'year_month': 'Čas', 'count': 'střelivo / zbraně'},)
 
-    pplot = plot(fig, output_type='div')
-
-    #Tabulka
-    df_prc = pd.read_json("udesky/data/pcr_filtered_informace.json")
-
-    df_prc['vyvěšení'].replace('', 'No date', inplace=True)
-
-    fig = go.Figure(data=[go.Table(
-        columnwidth = [50,400],
-           
-    header=dict(values=[['<b>Datum</b>'],
-                  ['<b>Oznámení</b>']],
-                fill_color='royalblue',
-                align='left',
-                font=dict(color='white', size=12)),  # Added closing parenthesis here
-    cells=dict(values=[df_prc['vyvěšení'], df_prc['název']],
-                fill_color=[['#f1f1f1', 'white'] * (len(df_prc) // 2)],
-               align='left'))
-])
-    ptable = plot(fig, output_type='div')
+    ptable = plot(fig_pcr_tabulka, output_type='div')
 
 
     return render(request, "pcr_nalezy.html", {"plot": pplot, "table": ptable})
+
+def soudy(request):
+    pplot = plot(fig, output_type='div')
+    return render(request, "soudy.html",{"plot":pplot})
