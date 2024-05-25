@@ -18,7 +18,7 @@ df_kraje = df[df['referencni_oblast'].str.contains("Kraj|kraj", na=False)]
 df_kraje = df_kraje[df_kraje["rok"] ==  2022]
 df_cr = df[df["referencni_oblast"]=="Česká republika"]
 df_cr
-fig_cr_line = px.line(df_cr, x="rok", y="real_pocet", title='Důchodci jsou také  kriminálníci')
+fig_cr_line = px.line(df_cr, x="rok", y="real_pocet", title='Vývoj počtu důchodců v ČR')
 
 fig_cr_tree = px.treemap(
     df_cr,
@@ -75,7 +75,7 @@ for i in range(0,2):
 
 print(df_d.to_string)
 
-fig = px.bar(df_d, x="nazev_okresu", y=2023, title="Počet soudů v rokach")
+fig_soudy = px.bar(df_d, x="nazev_okresu", y=2023, title="Počet soudů v rokach")
 
 
 

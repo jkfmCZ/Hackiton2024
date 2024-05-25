@@ -15,7 +15,7 @@ fig_pcr = px.bar(df_count, x='year_month', y='count', title='Počet nálezů st�
              labels={'year_month': 'Čas', 'count': 'střelivo / zbraně'},)
 fig_cr_tree = px.treemap(
     df_count,
-    path=["year","yer_month"],  # Hierarchie
+    path=["year","year_month"],  # Hierarchie
     values='count',  # Sloupec s hodnotami
     title='Počet nálezů střeliva / zbraní v ČR podle měsíců (2022-2024) ve stromovem grafu'
 )

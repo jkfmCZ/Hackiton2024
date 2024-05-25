@@ -5,8 +5,12 @@
     <div class="plotly-graph-div" id="plot-container">{{ plot|safe }}</div>
   </div>
   <div class="bg-white shadow-md rounded-lg p-6">
+    <div class="plotly-graph-div" id="table-container">{{ tree|safe }}</div>
+  </div>
+  <div class="bg-white shadow-md rounded-lg p-6">
     <div class="plotly-graph-div" id="table-container">{{ table|safe }}</div>
   </div>
+
   <div>
     <button
       onclick="openNewTab()"

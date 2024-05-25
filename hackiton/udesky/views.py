@@ -4,7 +4,7 @@ import plotly.express as px
 from django.shortcuts import render
 from plotly.offline import plot
 import plotly.graph_objects as go
-from .graph_gen import  fig_cr_line, fig_cr_tree, df_kraje
+from .graph_gen import  fig_cr_line, fig_cr_tree, fig_soudy
 from .pcr_nalezy import fig_pcr, fig_pcr_tabulka, fig_cr_tree
 
 
@@ -28,7 +28,7 @@ def pcr_nalezy(request):
     return render(request, "pcr_nalezy.html", {"plot": fig_bar, "table": ptable, "tree":tree_m})
 
 def soudy(request):
-    pplot = plot(fig_cr_tree, output_type='div')
+    pplot = plot(fig_soudy, output_type='div')
     return render(request, "soudy.html",{"plot":pplot})
 
 def duchody_kraje(request):
