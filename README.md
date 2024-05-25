@@ -4,8 +4,8 @@ Grafy a Mapy o důchodcích, zbraních a policii na základě informací získan
 
 ## Contetnty
 - [Instalace](#instalace)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Použití](#pouziti)
+- [Přispívající k projektu](#prispivaci)
 - [License](#license)
 
 ## Instalace
@@ -32,9 +32,10 @@ python manage.py tailwind start
 Objeví se vám web a můžete se proklikat, kam byste se chtěli podívat. 
 Máme tu mapy a grafy, od tuď si zjistítte informace pro vaše užití. 
 
-## Contributing
+## Přispívající k Projektu
 
-[Contribution guidelines]
+[@Janxyxy](https://github.com/Janxyxy)
+
 
 ## License
 
