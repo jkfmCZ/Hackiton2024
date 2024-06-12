@@ -1,6 +1,6 @@
 # Důchodci a Zbraně 
-
-Grafy a Mapy o důchodcích, zbraních a policii na základě informací získaných z [OpenData](https://opendata.gov.cz/)
+Vizualizace a zpracování otevřených dat z úředních desek a jejich nasledná vizualizace do grafu a map na téma bezpečnosti a justice.
+data z [OpenData]l(https://opendata.gov.cz/)
 
 ## Contetnty
 - [Instalace](#instalace)
