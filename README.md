@@ -1,5 +1,5 @@
-# Důchodci a Zbraně 
-Vizualizace a zpracování otevřených dat z úředních desek a jejich nasledná vizualizace do grafu a map na téma bezpečnosti a justice.
+# Interaktivní vizualizace otevřených dat
+Zpracování otevřených dat z úředních desek a jejich nasledná vizualizace do grafu a map na téma bezpečnosti a justice.
 data z [OpenData]l(https://opendata.gov.cz/)
 
 ## Contetnty
